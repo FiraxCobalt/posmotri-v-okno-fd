@@ -18,6 +18,8 @@ html {
   color: #fff;
   font-family: "Fira Sans Condensed", sans-serif;
   font-size: 18px;
+  font-weight: 400;
+  line-height: 1;
   background-color: #1b1919;
 }
 
@@ -85,8 +87,25 @@ ol {
   align-items: start;
 }
 
+.search-form__fieldset-title {
+  margin-block-end: 5px;
+  font-weight: 400;
+  font-size: 18px;
+}
+
 .content__details {
   grid-area: content-details;
+}
+
+.title {
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  font-size: 75px;
+  text-transform: uppercase;
+}
+
+.content__accent {
+  color: rgb(255 255 255 / 0.3);
 }
 
 .content__details-title {
@@ -104,6 +123,11 @@ ol {
   gap: 30px;
 }
 
+.content__card-link {
+  text-decoration: none;
+  color: rgb(255 255 255);
+}
+
 .content__video-card {
   display: flex;
   align-items: flex-start;
@@ -111,6 +135,20 @@ ol {
 
 .content__video-card-description-container {
   flex-grow: 1;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.content__video-card-title {
+  margin-block-end: 6px;
+  font-family: Oswald, sans-serif;
+  font-weight: 700;
+  font-size: 30px;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .content__video-card-thumbnail {
