@@ -117,14 +117,14 @@ ol {
 .search-form__textfield {
   border-width: 1px 0px 1px 0px;
   border-style: solid;
-  border-color: rgb(255 255 255);
+  border-color: currentColor;
   background-color: transparent;
   inline-size: 225px;
   block-size: 27px;
   font-family: inherit;
   font-weight: inherit;
   font-size: inherit;
-  color: rgb(255 255 255 / 0.7);
+  color: rgb(255 255 255);
   appearance: none;
 }
 
@@ -171,7 +171,7 @@ ol {
 }
 
 .button {
-  border: 1px solid rgb(255 255 255);
+  border: 1px solid currentColor;
   padding: 6px 20px;
   min-block-size: 34px;
   color: rgb(255 255 255);
