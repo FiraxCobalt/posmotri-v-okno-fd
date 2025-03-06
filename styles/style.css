@@ -97,10 +97,47 @@ ol {
   align-items: start;
 }
 
+.search-form__fieldset {
+  border: none;
+}
+
 .search-form__fieldset-title {
   margin-block-end: 5px;
   font-weight: 400;
   font-size: 18px;
+}
+
+.search-form__label {
+  display: flex;
+  inline-size: fit-content;
+}
+
+.search-form__textfield {
+  border-width: 1px 0px 1px 0px;
+  border-style: solid;
+  border-color: rgb(255 255 255);
+  background-color: transparent;
+  inline-size: 255px;
+  block-size: 27px;
+  font-family: inherit;
+  font-weight: inherit;
+  font-size: inherit;
+  color: rgb(255 255 255 / 0.7);
+  appearance: none;
+}
+
+.search-form__textfield:focus {
+  outline: none;
+}
+
+.search-form__label:has(:focus-visible) {
+  outline: 1px solid rgb(255 255 255);
+  outline-offset: 2px;
+}
+
+.search-form__checkbox-list {
+  display: flex;
+  gap: 15px;
 }
 
 .content__details {
