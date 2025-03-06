@@ -55,5 +55,38 @@ ol {
 
 .content {
   display: grid;
-  align-items: center;
+  align-items: end;
+  grid-template-columns: 711px 399px;
+  grid-template-rows: auto;
+  grid-template-areas: "result content-details";
+  column-gap: 30px;
+}
+
+.result {
+  grid-area: result;
+  justify-self: stretch;
+}
+
+.result__video {
+  display: block;
+  inline-size: 100%;
+}
+
+.search-form {
+  display: flex;
+  align-items: start;
+  gap: 40px;
+}
+
+.content__details {
+  grid-area: content-details;
+}
+
+.content__details-title {
+  margin-bottom: 26px;
+}
+
+.content__list-container {
+  block-size: 298px;
+  overflow: auto;
 }
