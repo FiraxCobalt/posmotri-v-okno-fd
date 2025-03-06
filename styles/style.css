@@ -81,8 +81,8 @@ ol {
 
 .search-form {
   display: flex;
+  justify-content: space-between;
   align-items: start;
-  gap: 40px;
 }
 
 .content__details {
