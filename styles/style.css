@@ -67,9 +67,16 @@ ol {
   justify-self: stretch;
 }
 
+.result__video-container {
+  block-size: 386px;
+  margin-block-end: 16px;
+}
+
 .result__video {
-  display: block;
   inline-size: 100%;
+  block-size: 100%;
+  object-fit: cover;
+  object-position: center;
 }
 
 .search-form {
@@ -83,10 +90,32 @@ ol {
 }
 
 .content__details-title {
-  margin-bottom: 26px;
+  margin-block-end: 26px;
 }
 
 .content__list-container {
   block-size: 298px;
   overflow: auto;
+}
+
+.content__list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.content__video-card {
+  display: flex;
+  align-items: flex-start;
+}
+
+.content__video-card-description-container {
+  flex-grow: 1;
+}
+
+.content__video-card-thumbnail {
+  inline-size: 194px;
+  block-size: 103px;
+  object-fit: cover;
+  object-position: center;
 }
