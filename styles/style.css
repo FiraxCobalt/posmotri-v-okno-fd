@@ -157,11 +157,11 @@ ol {
 .search-form__pseudo-checkbox::after {
   content: "";
   display: none;
-  inline-size: 15px;
-  block-size: 13px;
+  inline-size: 16px;
+  block-size: 16px;
   background-color: rgb(255 255 255);
   position: absolute;
-  top: 2px;
+  top: 1px;
   left: 1px;
 }
 
@@ -238,6 +238,7 @@ ol {
   display: flex;
   flex-direction: column;
   gap: 30px;
+  margin-block-end: 30px;
 }
 
 .content__list-item {
