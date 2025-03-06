@@ -168,6 +168,24 @@ ol {
   text-decoration: underline;
 }
 
+.button {
+  border: 1px solid rgb(255 255 255);
+  padding: 6px 20px;
+  min-block-size: 34px;
+  color: rgb(255 255 255);
+  font-family: "Fira Sans Condensed", sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 1;
+  text-align: center;
+  background-color: transparent;
+}
+
+.search-form__submit-button {
+  inline-size: 194px;
+  align-self: end;
+}
+
 .content__details {
   grid-area: content-details;
 }
@@ -231,4 +249,8 @@ ol {
   block-size: 103px;
   object-fit: cover;
   object-position: center;
+}
+
+.more-button {
+  inline-size: 100%;
 }
