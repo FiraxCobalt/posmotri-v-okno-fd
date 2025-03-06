@@ -82,6 +82,7 @@ ol {
 .result__video-container {
   block-size: 386px;
   margin-block-end: 16px;
+  position: relative;
 }
 
 .result__video {
@@ -230,6 +231,7 @@ ol {
 .content__list-container {
   block-size: 298px;
   overflow: auto;
+  position: relative;
 }
 
 .content__list {
