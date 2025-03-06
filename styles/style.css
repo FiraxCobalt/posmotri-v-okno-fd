@@ -112,6 +112,10 @@ ol {
   inline-size: fit-content;
 }
 
+.search-form__label {
+  cursor: pointer;
+}
+
 .search-form__textfield {
   border-width: 1px 0px 1px 0px;
   border-style: solid;
@@ -179,6 +183,7 @@ ol {
   line-height: 1;
   text-align: center;
   background-color: transparent;
+  cursor: pointer;
 }
 
 .button:focus {
