@@ -140,6 +140,34 @@ ol {
   gap: 15px;
 }
 
+.search-form__pseudo-checkbox {
+  margin-inline-end: 5px;
+  border: 1px solid rgb(255 255 255);
+  display: inline-block;
+  position: relative;
+  inline-size: 19px;
+  block-size: 19px;
+}
+
+.search-form__pseudo-checkbox::after {
+  content: "";
+  display: none;
+  inline-size: 15px;
+  block-size: 13px;
+  background-color: rgb(255 255 255);
+  position: absolute;
+  top: 2px;
+  left: 1px;
+}
+
+.search-form__checkbox:checked + .search-form__pseudo-checkbox::after {
+  display: block;
+}
+
+.search-form__label:hover .search-form__label-text {
+  text-decoration: underline;
+}
+
 .content__details {
   grid-area: content-details;
 }
